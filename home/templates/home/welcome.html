@@ -3,4 +3,6 @@
 {% block content %}
     <h1>Velkommen til SmartNotes!</h1>
     <p>Dato {{today}}</p>
+    <a href="{% url 'notes.list' %}" class="btn btn-primary">Klik her for at se noter</a>
+
 {% endblock %}
